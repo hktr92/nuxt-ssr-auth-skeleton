@@ -26,6 +26,10 @@ You can use `test1@test.com` as email address. That's the only thing checked in 
 - some dependencies (such as express & others) were added in `dependencies` bcs nuxt builder didn't look after `devDependencies` at all.
 - i don't really like how you merge app session data with express-session typing system. looks weird...
 
+## Docker setup
+- configure port forwarding: `{some_port_you_want}:3000`
+- it should work in browser
+
 ## Build Setup
 
 ```bash
